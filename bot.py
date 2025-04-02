@@ -4,10 +4,10 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # Bot Config
-API_ID = "25698862"
-API_HASH = "7d7739b44f5f8c825d48cc6787889dbc"
-BOT_TOKEN = "7687739757:AAHJZ4Ic3MeYq28GItW9mQSNWgigYBIUihw"
-IMGBB_API_KEY = "fadbcc22a78ae0a3c458d30c9aa52713"
+API_ID = "YOUR_API_ID"
+API_HASH = "YOUR_API_HASH"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
+IMGBB_API_KEY = "YOUR_IMGBB_API_KEY"
 
 app = Client("catbox_bot", api_id=API_ID, api_hash=API_HASH, bot_token=>
 
