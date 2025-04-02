@@ -2,6 +2,10 @@ import os
 import requests
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from dotenv import load_dotenv  # dotenv import karein
+
+# Load .env file
+load_dotenv()
 
 # Bot Config (Environment Variables)
 API_ID = os.getenv("API_ID")
