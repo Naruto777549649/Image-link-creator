@@ -1,0 +1,21 @@
+user:
+  name: 
+  github: 
+
+language: "python"
+python_version: "3.10"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  package:
+    - "nano bot.py"
+  start:
+    - "python3 bot.py"
+
+env:
+  - "API_ID=your_api_id"
+  - "API_HASH=your_api_hash"
+  - "BOT_TOKEN=your_bot_token"
+  - "IMGBB_API_KEY=your_imgbb_api_key"
+  - "ENVIRONMENT=production"
