@@ -12,8 +12,8 @@ commands:
     - "python3 bot.py"
 
 env:
-  - "API_ID=your_api_id"
-  - "API_HASH=your_api_hash"
-  - "BOT_TOKEN=your_bot_token"
-  - "IMGBB_API_KEY=your_imgbb_api_key"
+  - "API_ID=25698862"
+  - "API_HASH=7d7739b44f5f8c825d48cc6787889dbc"
+  - "BOT_TOKEN=7687739757:AAHJZ4Ic3MeYq28GItW9mQSNWgigYBIUihw"
+  - "IMGBB_API_KEY=fadbcc22a78ae0a3c458d30c9aa52713"
   - "ENVIRONMENT=production"
